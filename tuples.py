@@ -1,23 +1,23 @@
 # Creating a tuple using parentheses
-my_tuple = (1, 2, 'three', 4.5)
-print(my_tuple) 
+my_tuple = (1, 2, "three", 4.5)
+print(my_tuple)
 
 # Creating a tuple without parentheses (tuple packing)
-my_tuple = 1, 2, 'three', 4.5
-print(my_tuple) 
+my_tuple = 1, 2, "three", 4.5
+print(my_tuple)
 
 # Accessing Tuple Elements
-my_tuple = (1, 2, 'three', 4.5)
-print(my_tuple[0])  
-print(my_tuple[2]) 
+my_tuple = (1, 2, "three", 4.5)
+print(my_tuple[0])
+print(my_tuple[2])
 
-# Tuple unpacking 
+# Tuple unpacking
 # (yes, you can unpack other data structures, as well)
-my_tuple = (1, 2, 'three')
+my_tuple = (1, 2, "three")
 a, b, c = my_tuple
 print(a)
 print(b)
-print(c) 
+print(c)
 
 # Concatenating Tuples
 
@@ -54,8 +54,3 @@ my_tuple[0] = 4  # Raises a TypeError
 
 # Trying to append to a tuple
 my_tuple.append(4)  # Raises an AttributeError
-
-
-
-
-

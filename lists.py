@@ -113,7 +113,7 @@ print(reversed_list)
 # Differences between append and extend lists:
 a1 = [1, 2]
 a2 = [1, 2]
-# b = (3, 4)  # tuple
+b = (3, 4)  # tuple
 b = "cat"
 
 # a1 = [1, 2, 3, 4]
